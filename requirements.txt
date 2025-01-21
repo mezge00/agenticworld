@@ -4,3 +4,5 @@ pydantic
 faiss-cpu  # If you're using FAISS (or `faiss-gpu` if applicable)
 langchain
 langchain_community
+typing
+google-generativeai
