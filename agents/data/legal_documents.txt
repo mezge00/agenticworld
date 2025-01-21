@@ -1,0 +1,7 @@
+legal_content = """
+Legal Documents:
+1. Contracts must be reviewed carefully to avoid misunderstandings.
+2. Intellectual property laws protect creators and innovators.
+3. Employment laws safeguard worker rights and employer obligations.
+
+"""

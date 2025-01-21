@@ -1,0 +1,6 @@
+education_content = """
+Education Documents:
+1. Personalized learning can enhance student engagement and retention.
+2. Lifelong learning is critical for adapting to a rapidly changing world.
+3. Technology can revolutionize traditional teaching methods.
+"""

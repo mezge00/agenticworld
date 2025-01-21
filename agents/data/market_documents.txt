@@ -1,0 +1,6 @@
+market_content = """
+Market Insights Documents:
+1. Understanding consumer behavior is key to successful marketing.
+2. Market research helps identify growth opportunities and threats.
+3. Globalization impacts market trends and competition dynamics.
+"""

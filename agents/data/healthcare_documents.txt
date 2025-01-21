@@ -1,0 +1,7 @@
+healthcare_content = """
+Healthcare Documents:
+1. Exercise regularly to maintain physical and mental health.
+2. A balanced diet is key to preventing chronic diseases.
+3. Vaccinations are crucial for preventing infectious diseases.
+
+"""

@@ -1,0 +1,32 @@
+# Python-related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+.env/
+
+# IDE-related files
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Cache
+*.cache
+*.egg-info/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Render-specific files
+/.render-build/
