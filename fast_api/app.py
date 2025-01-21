@@ -1,10 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from  api.routes.financial import router as financial_router
-from api.routes.healthcare import router as healthcare_router
-from  api.routes.market_insights import router as market_insight_router
-from  api.routes.legal import router as legal_router
-from  api.routes.education import router as education_router
+from  backend.fast_api.api.routes.financial import router as financial_router
+from backend.fast_api.api.routes.healthcare import router as healthcare_router
+from  backend.fast_api.api.routes.market_insights import router as market_insight_router
+from  backend.fast_api.api.routes.legal import router as legal_router
+from  backend.fast_api.api.routes.education import router as education_router
 
 
 import sys
