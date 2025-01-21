@@ -7,3 +7,4 @@ langchain_community
 typing
 google-generativeai
 gradio
+sentence-transformers
