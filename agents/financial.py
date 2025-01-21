@@ -15,6 +15,6 @@ def create_financial_agent(domain_documents):
     return tool_func
 
 # Define get_financial_insights method
-def get_financial_insights(input_text, domain_documents="backend/agents/data/financial_documents.txt"):
+def get_financial_insights(input_text, domain_documents="agents/data/financial_documents.txt"):
     financial_agent = create_financial_agent(domain_documents)
     return financial_agent(input_text)

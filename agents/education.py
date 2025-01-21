@@ -12,7 +12,7 @@ def create_education_agent(domain_documents):
         return gemini_llm.call(input_text, context)
 
     return tool_func
-def get_education_insights(input_text, domain_documents="backend/agents/data/education_documents.txt"):
+def get_education_insights(input_text, domain_documents="agents/data/education_documents.txt"):
     education_agent = create_education_agent(domain_documents)
     return education_agent(input_text)
 

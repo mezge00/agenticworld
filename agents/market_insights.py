@@ -12,7 +12,7 @@ def create_market_insights_agent(domain_documents):
         return gemini_llm.call(input_text, context)
 
     return tool_func
-def get_market_insights(input_text, domain_documents="backend/agents/data/market_documents.txt"):
+def get_market_insights(input_text, domain_documents="agents/data/market_documents.txt"):
     market_insights_agent = create_market_insights_agent(domain_documents)
     return market_insights_agent(input_text)
 

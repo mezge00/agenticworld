@@ -12,6 +12,6 @@ def create_healthcare_agent(domain_documents):
         return gemini_llm.call(input_text, context)
 
     return tool_func
-def get_healthcare_insights(input_text, domain_documents="backend/agents/data/healthcare_documents.txt"):
+def get_healthcare_insights(input_text, domain_documents="agents/data/healthcare_documents.txt"):
     healthcare_agent = create_healthcare_agent(domain_documents)
     return healthcare_agent(input_text)

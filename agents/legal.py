@@ -12,6 +12,6 @@ def create_legal_agent(domain_documents):
         return gemini_llm.call(input_text, context)
 
     return tool_func
-def get_legal_insights(input_text, domain_documents="backend/agents/data/legal_documents.txt"):
+def get_legal_insights(input_text, domain_documents="agents/data/legal_documents.txt"):
     legal_agent = create_legal_agent(domain_documents)
     return legal_agent(input_text)
