@@ -22,7 +22,7 @@ class GoogleGeminiLLM(BaseModel):
     def __init__(self, **data):
         super().__init__(**data)
         # Configure the API key from the environment variable
-        api_key = "AIzaSyAHqUtYrqDgz1d8eZoBtF7mvAtFQMwDPZE"
+        api_key = "AIzaSyAZepiNxbeDssIlKbzZjXqOXrcaLCvVBu0"
         if not api_key:
             raise ValueError("Google API key is missing. Please set the 'GEMINI_API_KEY' environment variable.")
         genai.configure(api_key=api_key)

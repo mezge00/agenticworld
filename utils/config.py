@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configure the API key
-api_key = "AIzaSyAHqUtYrqDgz1d8eZoBtF7mvAtFQMwDPZE"
+api_key = "AIzaSyAZepiNxbeDssIlKbzZjXqOXrcaLCvVBu0"
 if not api_key:
     raise ValueError("API key is missing. Please check your .env file.")
 
