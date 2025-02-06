@@ -6,7 +6,6 @@ from  fast_api.api.routes.market_insights import router as market_insight_router
 from  fast_api.api.routes.legal import router as legal_router
 from  fast_api.api.routes.education import router as education_router
 
-
 import sys
 import os
 

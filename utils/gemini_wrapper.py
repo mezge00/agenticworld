@@ -1,7 +1,10 @@
 import os
 import google.generativeai as genai
 from pydantic import BaseModel, Field
+from dotenv import load_dotenv
 
+
+load_dotenv()
 
 class GoogleGeminiLLM(BaseModel):
     model_name: str = Field(default="gemini-2.0-flash-exp", description="The Gemini model to use.")
@@ -21,10 +24,12 @@ class GoogleGeminiLLM(BaseModel):
 
     def __init__(self, **data):
         super().__init__(**data)
-        # Configure the API key from the environment variable
-        api_key = "AIzaSyAZepiNxbeDssIlKbzZjXqOXrcaLCvVBu0"
+        
+        # Retrieve API key from environment variable
+        api_key = os.getenv("GEMINI_API_KEY")
         if not api_key:
             raise ValueError("Google API key is missing. Please set the 'GEMINI_API_KEY' environment variable.")
+        
         genai.configure(api_key=api_key)
 
         # Initialize the model
