@@ -8,3 +8,4 @@ typing
 google-generativeai
 gradio
 sentence-transformers
+langchain-huggingface
